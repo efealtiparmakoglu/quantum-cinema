@@ -36,6 +36,14 @@ Klasik fizikte imkansız: paketin bir kısmı 120 birimlik bariyerin ÖTESİNE g
 ![sacilma](renders/sacilma.png)
 Merkezî itici potansiyelden moiré girişim deseni. — *Merkezî iticiden moiré girişim deseni.*
 
+### 📊 QFT-20 Spektrumu — 1,048,576 bin
+![qft20](renders/qft20.png)
+20 kubutlu periyodik durumun QFT'si: 1M binlik girişim taragi, 16 keskin tepe. Bir dolu statevector (1 GB), 33 saniyede ~350 GB bellek tarayarak hesaplandi. — *1M binlik girişim taragi, 16 keskin tepe.*
+
+### 🎬 Demolar / Demos
+Grover-16 GIF (yukarida), 26 kubut RAM-max QFT ve Shor-15 ciktilari tek komutla uretilir:
+`python3 render.py hepsi`
+
 ## 🧱 The engines / Motorlar
 
 | Motor | Detay |
