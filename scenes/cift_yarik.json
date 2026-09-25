@@ -1,0 +1,29 @@
+{
+  "sim": {
+    "grid": 512,
+    "L": 20,
+    "dt": 0.003,
+    "steps": 1200,
+    "frame_every": 6,
+    "width": 512,
+    "height": 512,
+    "fps": 20,
+    "style": "intensity"
+  },
+  "init": {
+    "type": "paket",
+    "x0": -6.5,
+    "y0": 0,
+    "sx": 0.7,
+    "sy": 1.7,
+    "px": 8,
+    "py": 0
+  },
+  "potential": {
+    "type": "cift_yarik",
+    "slit": 0.5,
+    "separation": 1.8,
+    "barrier": 0.5
+  },
+  "output": "renders/cift_yarik.gif"
+}

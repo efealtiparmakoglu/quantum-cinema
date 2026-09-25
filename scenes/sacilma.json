@@ -1,0 +1,7 @@
+{
+  "sim": { "grid": 512, "L": 20, "dt": 0.003, "steps": 1400, "frame_every": 8,
+           "width": 512, "height": 512, "fps": 20, "style": "intensity" },
+  "init": { "type": "paket", "x0": -5.5, "y0": 0, "sx": 0.7, "sy": 1.8, "px": 11, "py": 0 },
+  "potential": { "type": "merkez", "radius": 1.1, "height": 220 },
+  "output": "renders/sacilma.gif"
+}
