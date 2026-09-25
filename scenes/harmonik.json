@@ -1,0 +1,7 @@
+{
+  "sim": { "grid": 512, "L": 16, "dt": 0.005, "steps": 1500, "frame_every": 8,
+           "width": 512, "height": 512, "fps": 20, "style": "faz" },
+  "init": { "type": "paket", "x0": 2.2, "y0": 0, "sx": 0.55, "sy": 0.55, "px": 0, "py": 3.2 },
+  "potential": { "type": "harmonik", "omega": 0.8 },
+  "output": "renders/harmonik.gif"
+}

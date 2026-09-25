@@ -1,0 +1,7 @@
+{
+  "sim": { "grid": 512, "L": 20, "dt": 0.002, "steps": 1600, "frame_every": 8,
+           "width": 512, "height": 512, "fps": 20, "style": "intensity" },
+  "init": { "type": "paket", "x0": -5.5, "y0": 0, "sx": 0.8, "sy": 2.2, "px": 14, "py": 0 },
+  "potential": { "type": "barrier", "thickness": 0.5, "height": 120 },
+  "output": "renders/tunelleme.gif"
+}
